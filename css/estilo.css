@@ -56,6 +56,9 @@ nav.navbar-transparente {
     background-color: white;
     color: black;
 }
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
 
 /*  Estrutura de conteudos     */
 .caixa {
@@ -89,8 +92,29 @@ nav.navbar-transparente {
 
 /*  Rodapé     */
 footer {
-    background: 000;
+    background: black;
     padding: 50px 0px 20px 0px;
+    position: relative;
+}
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+footer ul {
+    list-style: none;
 }
 
 /*  Tipografia     */
